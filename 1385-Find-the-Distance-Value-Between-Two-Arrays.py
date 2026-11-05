@@ -8,7 +8,7 @@ class Solution:
             for j in range(m):
                 if abs(arr1[i]-arr2[j])<=d:
                     found =  False
-                    continue
+                    break
             if found:
                 res +=1
         return res
